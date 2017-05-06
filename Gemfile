@@ -7,4 +7,5 @@ gem "jekyll-feed"
 gem "jekyll-paginate"
 gem "jekyll-gist"
 gem "jekyll-theme-architect"
+gem "jgd"
 
