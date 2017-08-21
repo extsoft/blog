@@ -77,7 +77,7 @@ exclude:
   - Gemfile
   - Gruntfile.js
   - LICENSE
-  - README
+  - README.md
   - Rakefile
   - config
   - gulpfile.js
@@ -87,5 +87,8 @@ exclude:
   - package.json
   - spec
   - tmp
+  - docker-compose.yml
+  - .travis.yml
+  - id_rsa.enc
 
 theme: jekyll-theme-architect
