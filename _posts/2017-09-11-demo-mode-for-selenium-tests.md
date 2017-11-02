@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Demo mode for Selenium tests"
-description: EventFiringWebDriver and WebDriverEventListener in action.
+description: "EventFiringWebDriver and WebDriverEventListener in action."
 tags: [selenium, webdriver, java]
 comments: true
 ---

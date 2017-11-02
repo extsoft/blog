@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deploying of your Docker Swarm cluster"
-description: The first steps to use Docker Swarm
+description: "The first steps to use Docker Swarm."
 tags: [docker, swarm, docker service, docker stack]
 comments: true
 ---

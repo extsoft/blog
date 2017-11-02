@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Minimal configuration of static code analysis for a Python project"
-description: An overview of Python's tools for static code analysis
+description: "An overview of Python's tools for static code analysis."
 tags: [python, static code analysis]
 comments: true
 ---
