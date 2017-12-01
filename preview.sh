@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-docker-compose down
-(sleep 27 && open http://localhost:4000) &
-docker-compose up
+rm Gemfile.lock
+(sleep 15 && open http://localhost:4000) &
+docker-compose up --build
 docker-compose down
