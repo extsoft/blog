@@ -1,2 +1,9 @@
 # Menu navigation links
-
+- title: About me
+  url:   /about/
+- title: All posts
+  url:   /posts/
+- title: All tags
+  url:   /posts/
+- title: Elegant git
+  url:   http://elegant-git.extsoft.pro
