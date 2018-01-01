@@ -4,6 +4,7 @@ title: "Python project structure for automated tests"
 description: "The article describes a structure of a Python's project for your automated tests."
 tags: [python, project structure]
 comments: true
+modified: 2018-01-01
 ---
 
 Once the Python automated tests development is started, need to define a project/repository structure. Usually, each engineer does it in his/her own way. But do we have some common template?
@@ -70,5 +71,5 @@ Conclusion
 Please take in mind that the proposed structure is the minimal one. And you could extend this if needed. Anyway, don't try to reinvent the wheel. 
 
 **Further reading**
-- [https://docs.python.org/3/tutorial/modules.html]()
-- [http://docs.python-guide.org/en/latest/writing/structure/]()
+- [https://docs.python.org/3/tutorial/modules.html](https://docs.python.org/3/tutorial/modules.html)
+- [http://docs.python-guide.org/en/latest/writing/structure](http://docs.python-guide.org/en/latest/writing/structure/)
