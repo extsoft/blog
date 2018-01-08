@@ -4,7 +4,7 @@ title: "Python project structure for automated tests"
 description: "The article describes a structure of a Python's project for your automated tests."
 tags: [python, project structure]
 comments: true
-modified: 2018-01-01
+modified: 2018-01-07
 ---
 
 Once the Python automated tests development is started, need to define a project/repository structure. Usually, each engineer does it in his/her own way. But do we have some common template?
@@ -61,7 +61,7 @@ The following project structure is a minimal common template for any test automa
 
 First of all, this is a common template used by Python community. This means that a lot of people of Python’s world could understand your code quickly. As a result, any knowledge transfer will go faster and you will save a lot of time and efforts.
 
-Additionally, this will simplify integration with the Python’s tooling. Any new integration of [static code analysis](http://extsoft.pro/static-code-analysis-in-python/) or whatever you need will take significantly less time.
+Additionally, this will simplify integration with the Python’s tooling. Any new integration of [static code analysis]({% post_url 2017-09-04-static-code-analysis-in-python %}) or whatever you need will take significantly less time.
 
 Next one, this structure allows easily create a Python package and distribute with PYPI etc. Here only needs to create a configuration for `setuptools`. This can be useful if some common logic has to be shared between several projects.
 
