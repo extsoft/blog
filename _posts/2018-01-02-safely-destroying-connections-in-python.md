@@ -2,8 +2,9 @@
 layout: post
 title: "Safely destroying connections in Python"
 description: "Show practical example how to close safely connection using different Python approaches."
-tags: [python, architecture]
+tags: [python, architecture, magic methods]
 comments: true
+modified: 2018-01-07
 ---
 
 Writing automated tests, we often have to interact with a database or a linux host. Different libraries allow us connecting to desired targets and interacting with them. Usually, a connection has to be created first, then it's possible to implement any desired interactions, and the connection has to be destroyed in the end of the interactions. Looks like everything is very logical and simple. But why there are so many errors in the implementations?
