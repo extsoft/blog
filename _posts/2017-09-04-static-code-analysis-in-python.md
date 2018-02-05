@@ -21,7 +21,7 @@ So, what the Python's world is offering us?
 "[Pylint](https://www.pylint.org/) is a tool that checks for errors in Python code, tries to enforce a coding standard
 and looks for code smells. It can also look for certain type errors, it can recommend suggestions about how particular
 blocks can be refactored and can offer you details about the code’s complexity." -
-[https://pylint.readthedocs.io/en/latest/intro.html]()
+[https://pylint.readthedocs.io/en/latest/intro.html](https://pylint.readthedocs.io/en/latest/intro.html)
 
 The default coding style used by pylint is close to [PEP 008](https://www.python.org/dev/peps/pep-0008/).
 
@@ -61,7 +61,7 @@ pylint $(find . -iname "*.py" -not -path "./tests/*" -not -path "./venv/*")
 "[flake8](https://gitlab.com/pycqa/flake8/) is a command-line utility for enforcing style consistency across Python
 projects. By default it includes lint checks provided by the PyFlakes project, PEP-0008 inspired style checks provided
 by the PyCodeStyle project, and McCabe complexity checking provided by the McCabe project." -
-[http://flake8.pycqa.org/en/latest/manpage.html]()
+[http://flake8.pycqa.org/en/latest/manpage.html](http://flake8.pycqa.org/en/latest/manpage.html)
 
 
 Installation
@@ -78,7 +78,7 @@ Configuration
 -------------
 Add your `.flake8` configuration file to customize which
 [errors](http://flake8.pycqa.org/en/latest/user/error-codes.html) are important to you. To find out more visit
-[http://flake8.pycqa.org/en/latest/user/configuration.html]().
+[http://flake8.pycqa.org/en/latest/user/configuration.html](http://flake8.pycqa.org/en/latest/user/configuration.html).
 
 Visit a [demo project](https://github.com/tatools/demo-python/blob/master/.flake8) to get an example.
 
@@ -100,7 +100,7 @@ my_pacakge/module12.py:45:26: E126 continuation line over-indented for hanging i
 **_pydocstyle_**
 ================
 "pydocstyle is a static analysis tool for checking compliance with Python docstring conventions." -
-[http://www.pydocstyle.org/en/latest/](). It supports most of [PEP 257](https://www.python.org/dev/peps/pep-0257/)
+[http://www.pydocstyle.org/en/latest/](http://www.pydocstyle.org/en/latest/). It supports most of [PEP 257](https://www.python.org/dev/peps/pep-0257/)
 out of the box.
 
 Installation
