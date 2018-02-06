@@ -11,3 +11,5 @@ There are a lot of materials about how to write good messages of commits like [t
 > Subject describes a task I have to solve while body explains why this particular implementation is used.
 
 This simple rule leads to the following conclusion: I can rely on the commit messages of a repository to understand why some particular line of code lives in a particular file. And no other information is required (like issue tracker, wikis, etc.).
+
+In addition, a set of commits between a new tag and the previous one is a release scope. And I can use the commit messages as a release notes. As you know, release notes are read by non-tech people also. That's why the commit message has... I hope you understand the idea of the rule above.
