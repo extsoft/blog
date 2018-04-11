@@ -4,6 +4,7 @@ title: "Extending monitoring capabilities of SNMP-enabled device"
 description: "We will take a look at the standard abilities that can be used for monitoring the SNMP-enabled devices on your network. Then, will discover the ways of adding custom metrics together with some practical example."
 tags: [snmp, monitoring]
 comments: true
+modified: 2018-04-11
 ---
 
 SNMP protocol is the internet standard often used a monitoring instrument. This happens because it’s a widespread tool within IP/TCP networks. And there are plenty different devices supporting it like switches, routers, surveillance camera and other devices, including IoT staffs.
@@ -12,7 +13,7 @@ SNMP protocol is the internet standard often used a monitoring instrument. This 
 
 How it works
 ============
-A device has a working daemon which allows communication capabilities defined by SNMP protocol. Then, it's possible to send the queries to the daemon using UDP protocol. If the daemon is capable to answer, it sends back the requested information.
+A device has a working daemon which allows communication capabilities defined by SNMP protocol. Then, it's possible to send the queries to the daemon using UDP protocol. If the daemon is capable to answer, it sends back the requested information. Please take into account that SNMP works over TCP and other protocols, it is most commonly used over UDP that is connectionless – both for performance reasons, and to minimize the additional load on a potentially troubled network that protocols like TCP impose.
 
 All the information inside the daemon is structured in the Management Information Base (MIB). Each element of this database is an object which represents a piece of information or group of other objects. The path of an object in the MIB is called [object identifier (OID)](http://oid-info.com/#oid).
 
@@ -189,7 +190,9 @@ To find out more, please visit [http://oid-info.com](http://oid-info.com).
 
 Conclusion
 ==========
-SNMP is a powerful tool for getting metrics from the devices. You can use either integrate SNMP with an existing monitoring tool or write your own monitoring using `python` + `easysnmp`. It fits with the goals of long-term monitoring as well as with short-term monitoring for performance testing etc.
+SNMP is a powerful tool for getting metrics from the devices. You can use either integrate SNMP with an existing monitoring tool or write your own monitoring using `python` + `easysnmp`. It fits with the goals of long-term monitoring as well as with short-term monitoring for performance testing etc. Also, there are a lot of cases when SNMP is only the one way to test or monitor network devices.
+
+As you may notice, in the examples above SNMP  version `2c` is used. If you take care of security aspects, please use version `3`. The material below can give you more insights about also. 
 
 **Further reading**
 
