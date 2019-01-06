@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-rm Gemfile.lock
-(sleep 15 && open http://localhost:4000) &
-docker-compose up --build
-docker-compose down
+set -e
+case $1 in
+    check)      jekyll clean && jekyll build && jekyll doctor ;;
+    preview)    jekyll serve --watch ;;
+    *)          echo "'check' or 'preview' is allowed"; exit -1 ;;
+esac
+

@@ -89,6 +89,3 @@ exclude:
   - tmp
   - docker-compose.yml
   - .travis.yml
-  - id_rsa.enc
-
-theme: jekyll-theme-architect
