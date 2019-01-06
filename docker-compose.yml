@@ -1,9 +1,16 @@
 version: '3'
 services:
-    blog:
+    check:
+        image: extsoft/blog
         build: .
-        command: jekyll serve --watch
-        ports: 
-            - 4000:4000
-        volumes: 
+        command: "./preview.sh check"
+        volumes:
             - .:/srv/jekyll
+    preview:
+        image: extsoft/blog
+        build: .
+        command: "./preview.sh preview"
+        ports:
+        - 4000:4000
+        volumes:
+        - .:/srv/jekyll
