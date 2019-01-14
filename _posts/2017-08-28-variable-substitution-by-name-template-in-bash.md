@@ -2,7 +2,7 @@
 layout: post
 title: "Variable substitution by name template in bash"
 description: "The article explains how to access bash variable by a name pattern."
-tags: [bash, commandline]
+tags: [bash]
 comments: true
 ---
 

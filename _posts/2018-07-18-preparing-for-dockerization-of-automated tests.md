@@ -2,7 +2,7 @@
 layout: post
 title: "Preparing for dockerization of automated tests"
 description: "What needs to be done before trying to move automated tests to the containers?"
-tags: [docker, architecture]
+tags: [docker, architecture, concept]
 comments: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Deploying of your Docker Swarm cluster"
 description: "The first steps to use Docker Swarm."
-tags: [docker, swarm, docker service, docker stack]
+tags: [docker, docker swarm, docker-compose]
 comments: true
 ---
 

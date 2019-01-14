@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Python project structure for automated tests"
-description: "The article describes a structure of a Python's project for your automated tests."
-tags: [python, project structure]
+description: "The article describes a structure of a Python's project for the automated tests."
+tags: [python, project structure, architecture]
 comments: true
 modified: 2018-01-07
 ---
