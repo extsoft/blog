@@ -2,7 +2,7 @@
 layout: post
 title: "A test, a WebDriver and a browser in Selenium's world"
 description: "We're going to discuss why using of browser-specific implementation of a `WebDriver` is a bad idea."
-tags: [selenium, webdriver, architecture]
+tags: [selenium, architecture, java]
 comments: true
 ---
 

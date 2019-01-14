@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to collect packages were installed with pip?"
-description: "The article describes best ways to generate pip requirements file."
+description: "The article describes how to exclude transitive dependencies while generating requirements.txt."
 tags: [python, pip, dependency management]
 comments: true
 ---

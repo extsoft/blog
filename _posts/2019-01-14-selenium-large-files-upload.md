@@ -2,7 +2,7 @@
 layout: post
 title: "Selenium: large files upload"
 description: "Do you know how does Selenium upload files? Is there a way to upload a huge file without errors?"
-tags: [selenium, python]
+tags: [selenium, python, tips & tricks]
 comments: true
 ---
 Selenium has a pretty easy method of how to upload a file. You need to find a file input element and put a file path via `send keys` method. That's it! But what's about file size? Usually, it is not important, but sometimes size matters. Why?
