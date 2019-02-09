@@ -8,5 +8,9 @@
             <a href="https://twitter.com/intent/tweet?text={% if page.description %}{{ page.description }}{% endif %} {{ site.url }}{{ page.url }}"
                title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a>
         </li>
+        <li class="linkedin">
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={% if page.description %}{{ page.description }}{% endif %}"
+               title="Share on LinkedIN"><span class="count"><i class="fa fa-linkedin-square"></i> Share</span></a>
+        </li>
     </ul>
 </div><!-- /.social-share -->
