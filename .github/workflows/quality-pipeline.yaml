@@ -1,0 +1,14 @@
+name: Quality pipeline
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test-changes:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Generate the site
+      run: docker-compose up --abort-on-container-exit check

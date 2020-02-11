@@ -1,6 +1,0 @@
-services: docker
-script: docker-compose up --build check
-notifications:
-  email:
-    on_success: never
-    on_failure: always

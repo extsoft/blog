@@ -1,16 +1,21 @@
-version: '3'
+version: "3.7"
+
+x-default-settings: &default-settings
+    image: jekyll/jekyll:3
+    volumes:
+        - type: bind
+          source: ./
+          target: /code
+
 services:
     check:
-        image: extsoft/blog
-        build: .
-        command: "./preview.sh check"
-        volumes:
-            - .:/srv/jekyll
+        << : *default-settings
+        command: "sh -c 'cp -r /code/* . && jekyll clean && jekyll build --safe && jekyll doctor'"
     preview:
-        image: extsoft/blog
-        build: .
-        command: "./preview.sh preview"
+        << : *default-settings
+        command: "sh -c 'jekyll clean && jekyll serve --config _config.yml,_config_dev.yml --safe --watch --drafts'"
+        working_dir: /code
         ports:
-        - 4000:4000
-        volumes:
-        - .:/srv/jekyll
+            - 80:4000
+        environment:
+            - JEKYLL_ENV=localhost
