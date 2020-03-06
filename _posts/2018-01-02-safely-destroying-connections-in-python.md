@@ -4,7 +4,7 @@ title: "Safely destroying connections in Python"
 description: "Show practical example how to close safely connection using different Python approaches."
 tags: [python, architecture, magic methods]
 comments: true
-modified: 2018-01-07
+modified: 2020-03-06
 ---
 
 Writing automated tests, we often have to interact with a database or a linux host. Different libraries allow us connecting to desired targets and interacting with them. Usually, a connection has to be created first, then it's possible to implement any desired interactions, and the connection has to be destroyed in the end of the interactions. Looks like everything is very logical and simple. But why there are so many errors in the implementations?
@@ -55,13 +55,13 @@ class SshConnection:
     
     def __init__(self):
         self._client = paramiko.SSHClient()
-        self._client.connect('ssh.example.com', username='strongbad', password='thecheat')
     
     def __enter__(self):
         """ Enter the runtime context related to this object.
         
         In other words, an instance of this object has to be returned as it'll be used as a SSH connection.
         """
+        self._client.connect('ssh.example.com', username='strongbad', password='thecheat')
         return self
     
     def __exit__(self, exc_type, exc_val, exc_tb):
