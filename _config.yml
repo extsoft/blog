@@ -1,6 +1,6 @@
 title:            Dmytro Serdiuk's blog
 description:      You'll see staff related to my work.
-disqus_shortname: extsoft
+disqus_shortname:
 reading_time:     true
 words_per_minute: 100
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
