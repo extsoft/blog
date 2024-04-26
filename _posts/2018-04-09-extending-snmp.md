@@ -169,7 +169,7 @@ snmpd.conf
 ```
 rocommunity  pwd
 syslocation  "Dmytro Serdiuk"
-syscontact  dmytro.serdiuk@gmail.com
+syscontact  dmytro@email.com
 
 extend prev /etc/app/analytic.sh prev
 extend last /etc/app/analytic.sh last

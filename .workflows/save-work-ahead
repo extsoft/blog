@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script invokes ahead of the 'save-work' execution.
+set -o errexit
+set -o pipefail
+cd "$(git rev-parse --show-toplevel)"
+
+docker-compose up --abort-on-container-exit check

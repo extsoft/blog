@@ -1,11 +1,5 @@
 # Menu navigation links
-- title: About me
-  url:   /about/
 - title: All posts
   url:   /posts/
 - title: All tags
   url:   /tags/
-- title: Elegant git
-  url:   https://elegant-git.bees-hive.org
-- title: PEM
-  url:   http://pem.extsoft.pro

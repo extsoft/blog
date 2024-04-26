@@ -1,4 +1,4 @@
-title:            Dmytro Serdiuk's blog
+title:            Dmytro's blog
 description:      You'll see staff related to my work.
 disqus_shortname:
 reading_time:     true
@@ -12,7 +12,7 @@ owner:
   name:           Dmytro Serdiuk
   avatar:         me/logo.png
   bio:            "The passionate architect of quality solutions."
-  email:          Dmytro Serdiuk<dmytro.serdiuk@gmail.com>
+  email:          Dmytro Serdiuk <hey@extsoft.pro>
   # Social networking links used in footer. Update and remove as you like.
   twitter:        DmytroSerdiuk
   facebook:       

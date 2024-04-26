@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -o errexit
+set -o pipefail
+cd "$(git rev-parse --show-toplevel)"
+
+docker-compose down --volumes
+git-elegant prune-repository

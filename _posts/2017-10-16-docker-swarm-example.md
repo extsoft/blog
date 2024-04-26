@@ -63,7 +63,7 @@ redis
 **Dockerfile**
 ```text
 FROM python:3.4-alpine
-LABEL maintainer="Dmytro Serdiuk <dmytro.serdiuk@gmail.com>" site="extsoft.pro"
+LABEL maintainer="Dmytro Serdiuk <dmytro@email.com>" site="extsoft.pro"
 WORKDIR /code
 COPY app.py requirements.txt ./
 RUN pip install -r requirements.txt && mkdir -p logs
